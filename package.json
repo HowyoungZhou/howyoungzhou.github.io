@@ -1,0 +1,22 @@
+{
+  "name": "howyoung-blog",
+  "version": "0.1.0",
+  "description": "Howyoung's blog at www.howyoung.dev",
+  "main": "gatsby-config.js",
+  "repository": "https://github.com/HowyoungZhou/blog.git",
+  "author": "Howyoung <howyoung3@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve"
+  },
+  "packageManager": "yarn@3.1.1",
+  "dependencies": {
+    "gatsby": "^4.7.0",
+    "gatsby-source-filesystem": "^4.7.0",
+    "gatsby-theme-blog-ocean": "^0.1.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

@@ -1,0 +1,47 @@
+module.exports = {
+  siteMetadata: {
+    social: [
+      {
+        name: `GitHub`,
+        url: `https://github.com/HowyoungZhou`,
+      },
+      {
+        name: `Email`,
+        url: `mailto:me@howyoung.dev`,
+      },
+    ],
+  },
+  plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `posts`,
+        name: `posts`
+      }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `locales`,
+        name: `locales`
+      }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `assets`,
+        name: `assets`
+      }
+    },
+    {
+      resolve: `gatsby-theme-blog-ocean`,
+      options: {
+        title: `Howyoung's Blog`,
+        author: 'Howyoung',
+        description: 'Here is the description of the site.',
+        siteUrl: 'https://www.howyoung.dev',
+        languages: ['en', 'zh', 'ja']
+      }
+    }
+  ],
+}
