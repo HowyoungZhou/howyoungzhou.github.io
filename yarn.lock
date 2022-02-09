@@ -3273,15 +3273,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-helmet@npm:^6.1.5":
-  version: 6.1.5
-  resolution: "@types/react-helmet@npm:6.1.5"
-  dependencies:
-    "@types/react": "*"
-  checksum: d059cc084d3b3071cce3421bb1170dd42819cf39b81afe60d4fbd66c5ef9ffeaadf1802df80efd9553258f621678f69ceb5a21d73df0d8539d40ae9a0f995485
-  languageName: node
-  linkType: hard
-
 "@types/react-is@npm:^16.7.1 || ^17.0.0":
   version: 17.0.3
   resolution: "@types/react-is@npm:17.0.3"
@@ -4494,18 +4485,6 @@ __metadata:
   checksum: 9e8521fa7e83aa9427c6f8ccdcba6e8167ef30cc9a22df26effcc5ab682ef91d2cbc23a239f945d099289e4bbcfae7a192e9c28c84c6202e710a0dfec3722662
   languageName: node
   linkType: hard
-
-"blog@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "blog@workspace:."
-  dependencies:
-    gatsby: ^4.7.0
-    gatsby-source-filesystem: ^4.7.0
-    gatsby-theme-blog-ocean: ^0.1.1
-    react: ^17.0.2
-    react-dom: ^17.0.2
-  languageName: unknown
-  linkType: soft
 
 "bluebird@npm:^3.0.5, bluebird@npm:^3.7.2":
   version: 3.7.2
@@ -8196,9 +8175,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-theme-blog-ocean@npm:^0.1.1":
-  version: 0.1.1
-  resolution: "gatsby-theme-blog-ocean@npm:0.1.1"
+"gatsby-theme-blog-ocean@npm:^0.1.2":
+  version: 0.1.2
+  resolution: "gatsby-theme-blog-ocean@npm:0.1.2"
   dependencies:
     "@emotion/react": ^11.7.1
     "@emotion/styled": ^11.6.0
@@ -8210,7 +8189,6 @@ __metadata:
     "@mui/icons-material": ^5.2.4
     "@mui/lab": ^5.0.0-alpha.62
     "@mui/material": ^5.2.4
-    "@types/react-helmet": ^6.1.5
     gatsby-core-utils: ^3.5.2
     gatsby-plugin-feed-mdx: ^1.1.0
     gatsby-plugin-image: ^2.4.0
@@ -8233,7 +8211,7 @@ __metadata:
     remark-slug: 6.1.0
   peerDependencies:
     gatsby: ^4.4.0
-  checksum: 4d8c0183f8795cbe61267655c716636c163647cf74dc295620070dc2ed329f6e2e38dfc65dde09a4f6f8e6c58b552421cf38db0242b5a969826f75578140b2fd
+  checksum: 0aad35eeb76778bb70fb4dbe40f925309c33d8c560ec4814a779b23e40adbd0cc37007a2c9dcb0b8d24cd43f0ed4543b77f78bcaf057d159b0f484c4d26a8066
   languageName: node
   linkType: hard
 
@@ -9121,6 +9099,18 @@ __metadata:
   checksum: 5af7a69581acb84206a7b8e009f4680c36396814e92c8a83973dfb3b87e44e44d1f7b8eaf3e4a953686482770ecb78406a4ce4666bfdfe447762434127871d8d
   languageName: node
   linkType: hard
+
+"howyoung-blog@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "howyoung-blog@workspace:."
+  dependencies:
+    gatsby: ^4.7.0
+    gatsby-source-filesystem: ^4.7.0
+    gatsby-theme-blog-ocean: ^0.1.2
+    react: ^17.0.2
+    react-dom: ^17.0.2
+  languageName: unknown
+  linkType: soft
 
 "html-entities@npm:^1.2.1":
   version: 1.4.0
