@@ -1,5 +1,6 @@
 module.exports = {
   siteMetadata: {
+    author: 'Howyoung',
     social: [
       {
         name: `GitHub`,
@@ -37,7 +38,6 @@ module.exports = {
       resolve: `gatsby-theme-blog-ocean`,
       options: {
         title: `Howyoung's Blog`,
-        author: 'Howyoung',
         description: 'Here is the description of the site.',
         siteUrl: 'https://www.howyoung.dev',
         languages: ['en', 'zh', 'ja']

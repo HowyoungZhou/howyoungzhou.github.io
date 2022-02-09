@@ -1,0 +1,18 @@
+{
+  "About Me": "私について",
+  "Built with <1></1> by {{author}}.": "{{author}} によって <1/> を込めて作りました。",
+  "Contents": "目次",
+  "Dark": "ダーク",
+  "Home": "ホーム",
+  "Language": "言語",
+  "Light": "ライト",
+  "Menu": "メニュー",
+  "No more posts at now.": "以上は全部のポストです。",
+  "Posts": "ポスト",
+  "RSS Feed": "RSS フィード",
+  "System Default": "システムのデフォルト",
+  "The theme is designed by <1>Howyoung</1> and powered by <3></3> Gatsby and <5></5> Material UI.": "テーマは <1>Howyoung</1> によって設計され、<3></3> Gatsby と <5></5> Material UI を利用しています。",
+  "Theme": "テーマ",
+  "greeting": "Hi! {{ author }} です。",
+  "description": "IT技術がすきので、いまコンピューター科学を勉強中です。"
+}

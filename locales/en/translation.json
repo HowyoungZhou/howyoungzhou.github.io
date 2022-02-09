@@ -1,8 +1,9 @@
 {
+  "About Me": "About Me",
+  "Built with <1></1> by {{author}}.": "Built with <1></1> by {{author}}.",
+  "Contents": "Contents",
   "Dark": "Dark",
-  "Hi! I'm Howyoung.": "Hi! I'm Howyoung.",
   "Home": "Home",
-  "I'm a tech enthusiast learning computer science currently.": "I'm a tech enthusiast learning computer science currently.",
   "Language": "Language",
   "Light": "Light",
   "Menu": "Menu",
@@ -10,6 +11,8 @@
   "Posts": "Posts",
   "RSS Feed": "RSS Feed",
   "System Default": "System Default",
+  "The theme is designed by <1>Howyoung</1> and powered by <3></3> Gatsby and <5></5> Material UI.": "The theme is designed by <1>Howyoung</1> and powered by <3></3> Gatsby and <5></5> Material UI.",
   "Theme": "Theme",
-  "footerText": "Built with <1/> by Howyoung."
+  "greeting": "Hi! I'm {{ author }}.",
+  "description": "I'm a tech enthusiast learning computer science currently."
 }
