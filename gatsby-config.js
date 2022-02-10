@@ -41,7 +41,10 @@ module.exports = {
         description: `A tech enthusiast's blog.`,
         siteUrl: 'https://www.howyoung.dev',
         languages: ['en', 'zh', 'ja'],
-        localesSource: 'locales'
+        localesSource: 'locales',
+        i18nOptions: {
+          redirect: false
+        }
       }
     }
   ],
