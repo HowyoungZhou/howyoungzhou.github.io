@@ -13,6 +13,6 @@
   "System Default": "システムのデフォルト",
   "The theme is designed by <1>Howyoung</1> and powered by <3></3> Gatsby and <5></5> Material UI.": "テーマは <1>Howyoung</1> によって設計され、<3></3> Gatsby と <5></5> Material UI を利用しています。",
   "Theme": "テーマ",
-  "greeting": "Hi! {{ author }} です。",
-  "description": "IT技術がすきので、いまコンピューター科学を勉強中です。"
+  "banner.greeting": "Hi! {{ author }} です。",
+  "banner.introduction": "IT技術がすきので、いまコンピューター科学を勉強中です。"
 }

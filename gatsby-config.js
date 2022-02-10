@@ -23,7 +23,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `locales`,
+        path: `${__dirname}/locales`,
         name: `locales`
       }
     },
@@ -38,9 +38,10 @@ module.exports = {
       resolve: `gatsby-theme-blog-ocean`,
       options: {
         title: `Howyoung's Blog`,
-        description: 'Here is the description of the site.',
+        description: `A tech enthusiast's blog.`,
         siteUrl: 'https://www.howyoung.dev',
-        languages: ['en', 'zh', 'ja']
+        languages: ['en', 'zh', 'ja'],
+        localesSource: 'locales'
       }
     }
   ],
