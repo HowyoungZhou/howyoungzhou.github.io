@@ -8236,9 +8236,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gatsby-theme-blog-ocean@npm:^0.1.4":
-  version: 0.1.4
-  resolution: "gatsby-theme-blog-ocean@npm:0.1.4"
+"gatsby-theme-blog-ocean@npm:^0.1.5":
+  version: 0.1.5
+  resolution: "gatsby-theme-blog-ocean@npm:0.1.5"
   dependencies:
     "@emotion/react": ^11.7.1
     "@emotion/styled": ^11.6.0
@@ -8268,6 +8268,7 @@ __metadata:
     gatsby-transformer-sharp: ^4.4.0
     i18next: ^21.6.3
     path-to-regexp: ^6.2.0
+    prism-react-renderer: ^1.3.1
     react: ^17.0.2
     react-dom: ^17.0.2
     react-helmet: ^6.1.0
@@ -8275,7 +8276,7 @@ __metadata:
     remark-slug: 6.1.0
   peerDependencies:
     gatsby: ^4.4.0
-  checksum: cf8b1243129378f19d08df31dc18c3b0af35a75ae5b2531e663b2311e342530070ed0eedda2cf8488091aa849d621e2f1dc983dd82c77a345b3f2dd70a6d2e10
+  checksum: b2b50552034023b95829c4533e271d43cdca26e824fac38633b1b377246ba3e9427f31313e3a943fb162451ca6fe3b4450b4838147e32413a7d8ff3f77918b77
   languageName: node
   linkType: hard
 
@@ -9170,7 +9171,7 @@ __metadata:
   dependencies:
     gatsby: ^4.7.0
     gatsby-source-filesystem: ^4.7.0
-    gatsby-theme-blog-ocean: ^0.1.4
+    gatsby-theme-blog-ocean: ^0.1.5
     react: ^17.0.2
     react-dom: ^17.0.2
   languageName: unknown
@@ -13162,6 +13163,15 @@ __metadata:
     lodash: ^4.17.20
     renderkid: ^2.0.4
   checksum: 16775d06f9a695d17103414d610b1281f9535ee1f2da1ce1e1b9be79584a114aa7eac6dcdcc5ef151756d3c014dfd4ac1c7303ed8016d0cec12437cfdf4021c6
+  languageName: node
+  linkType: hard
+
+"prism-react-renderer@npm:^1.3.1":
+  version: 1.3.1
+  resolution: "prism-react-renderer@npm:1.3.1"
+  peerDependencies:
+    react: ">=0.14.9"
+  checksum: 883693ea59dd6c7d821930ff232f1b28cd3f5d4a111fdb0a730f2ae34ffc7ca805ad3522c86eecbc79f9bee30279371e1fa6b33b4f72a6d3f17921b733b303b6
   languageName: node
   linkType: hard
 
