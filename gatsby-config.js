@@ -40,11 +40,19 @@ module.exports = {
         title: `Howyoung's Blog`,
         description: `A tech enthusiast's blog.`,
         siteUrl: 'https://www.howyoung.dev',
-        languages: ['en', 'zh', 'ja'],
+        languages: ['en', 'zh-CN', 'ja'],
         localesSource: 'locales',
         i18nOptions: {
           redirect: false
-        }
+        },
+        giscusOptions: {
+          repo: "HowyoungZhou/blog",
+          repoId: "R_kgDOG0Da5Q",
+          category: "Announcements",
+          categoryId: "DIC_kwDOG0Da5c4CYzmw",
+          mapping: "pathname",
+          strict: "0"
+        },
       }
     }
   ],
