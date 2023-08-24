@@ -46,12 +46,12 @@ module.exports = {
           redirect: false
         },
         giscusOptions: {
-          repo: "HowyoungZhou/blog",
+          repo: "HowyoungZhou/howyoungzhou.github.io",
           repoId: "R_kgDOG0Da5Q",
           category: "Announcements",
           categoryId: "DIC_kwDOG0Da5c4CYzmw",
           mapping: "pathname",
-          strict: "0"
+          strict: "1"
         },
       }
     }
